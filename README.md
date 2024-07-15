@@ -21,15 +21,18 @@ Medical image segmentation is a critical task in healthcare, aiding in diagnosti
 ### Install Dependencies
 ```bash
 pip install -r requirements.txt
+pip install monai
 ```
 
 Requirements File
 ```
-monai
-torch
 matplotlib
 numpy
-glob
+tqdm
+glob2
+dicom2nifti
+pytest-shutil
+nibabel
 ```
 
 ## Training
